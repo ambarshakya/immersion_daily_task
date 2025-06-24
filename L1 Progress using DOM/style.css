@@ -1,0 +1,19 @@
+*{
+    margin: 50px;
+}
+
+.progressContainer{
+    width: 40%;
+    background-color: antiquewhite;
+    border-radius: 25px ;
+    margin: 0;
+    overflow: hidden;
+    height: 10px;
+}
+
+.progressBar{
+    height: 100%;
+    width: 0%;
+    background-color: black;
+    transition: width 0.3s ease;
+}
